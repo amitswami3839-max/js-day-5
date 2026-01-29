@@ -94,33 +94,29 @@
 // //retune statement the block and comes out of the block
 // //smile the code exceuationhits the retune statement, it will directaly eradicate the execuation of the funcation
 // //  and retune the value specified
-let sentence = "I am a comma separated sentence";
-let word = sentence.split(" ");
-console.log(word);//[ 'I' , 'm','comm','sep
+// let sentence = "I am a comma separated sentence";
+// let word = sentence.split(" ");
+// console.log(word);//[ 'I' , 'm','comm','separated','sentence']
 
-
-
-
-
-
-
+//let words2 = sentence.split("a");
+//console.log(words2);//['i','m','','comm','sep',r','ted sentence']
 
 
 
 
 // find out the occcurance of "r" in thne given text
-let str="tu meri me tera me tera tu meri";
+// let str="tu meri me tera me tera tu meri";
 
-// answer
+// // answer
 
-let count = 0;
-for(let i = 0; i < str.length; i++) {
-    if (str[i]===){
-        count++;
-    }
-}
+// let count = 0;
+// for(let i = 0; i < str.length; i++) {
+//     if (str[i]===){
+//         count++;
+//     }
+// }
 
-console.log("occurrence of 'r':",count);
+// console.log("occurrence of 'r':",count);
 
 
 
@@ -132,15 +128,15 @@ console.log("occurrence of 'r':",count);
 //}
 
 // callback=demo()
-function sample(callback){
-    console.log("demo")
-}
-sample(demo)
+// function sample(callback){
+//     console.log("demo")
+// }
+// sample(demo)
 
-//arrow function
-function demo3
-const demo=()=>console.log("demo");
-demo()
+// //arrow function
+// function demo3
+// const demo=()=>console.log("demo");
+// demo()
 
 
 
@@ -149,24 +145,37 @@ demo()
 //2. we can pass a function as an argument inside another function
 //3. we can return a function from a function
 
-function test(){
-    return function test2(){
-        console.log("test2"):
-        return function test3(){
-            console.log("test3")
-        }
-    }
-}
-//test()()()
-let value = test()
-let value2=value()
-value2(20)
+// function test(){
+//     return function test2(){
+//         console.log("test2"):
+//         return function test3(){
+//             console.log("test3")
+//         }
+//     }
+// }
+// //test()()()
+// let value = test()
+// let value2=value()
+// value2(20)
 
 //4.higher order function
 
 //map, filter,reduce
 
-setTimeout((=>)100
-){
+// setTimeout((=>)100
+// ){
 
-},
+// },
+
+
+
+//let user={
+//    name:"Amit",
+//    adderss:"sohna",
+//    mobile_no:1234567890,
+//    favcolor:["black","yellow","white"],
+//}
+//console.log(user.name,user.mobile_no,user.favcolor[1]);
+
+
+c
